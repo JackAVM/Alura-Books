@@ -89,3 +89,8 @@
     background-position: 1em;
 }
 
+.Menu_Alura {
+    display: inline-block;
+    position: absolute;
+    padding: 0.5em;
+}
