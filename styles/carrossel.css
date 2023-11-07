@@ -33,7 +33,7 @@
     justify-content: space-between;
 }
 
-.botoões {
+.botões {
     display: flex;
 }
 
@@ -59,7 +59,8 @@
 
 .descrição_texto {
     font-size: 14px;
-
+    font-weight: 400;
+    padding-right: 0.5em;
 }
 
 .botões_item {
@@ -67,6 +68,31 @@
 }
 
 .botões_ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    padding-left: 1.25em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.Angular {
+    width: 100%;
+    height: 100%;
+}
+
+.Autora {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    left: 25px;
+}
+
+.Estrelas {
+    padding: 0.5em;
+}
+
+.botão_ancora {
     background-color: var(--laranja);
     padding: 1em 2.2em;
     color: var(--branco);
